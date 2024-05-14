@@ -239,3 +239,19 @@ li {
 .task-menu li i {
   padding-right: 8px;
 }
+
+@media screen and (max-width: 1024px) {
+  .img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 10px;
+  }
+  .wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+}
