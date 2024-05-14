@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>to-do-list-02</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="./imgs/undraw_task_list_6x9d.svg" alt="" />
+      </div>
+
+      <div class="wrapper">
+        <div class="task-input">
+          <input type="text" placeholder="Adicione uma tarefa" />
+          <button id="btn-add">Adicionar</button>
+        </div>
+
+        <div class="filters">
+          <span class="active" id="all">Todos</span>
+          <span id="pending">Pendentes</span>
+          <span id="completed">Concluídos</span>
+        </div>
+
+        <ul class="task-box">
+
+        </ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
